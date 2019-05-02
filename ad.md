@@ -1,4 +1,4 @@
-#Dos Commands
+# Commands
 
 |command|note
 |:-|:-

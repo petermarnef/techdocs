@@ -1,4 +1,5 @@
-# Run a local SQL server in docker
+# How to
+## Run a local SQL server in docker
 
 Linux image: https://hub.docker.com/_/microsoft-mssql-server
 
