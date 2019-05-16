@@ -9,3 +9,17 @@
 2. Get remote branches locally (per branch) = `git checkout -b <local branch name> <remote branch name>`
 3. Set remote URL to new repo = `git remote set-url origin <url new repo>`
 4. Push everything in the local repo to the remote = `git push origin --mirror`
+
+This code does a checkout of all remote branches:
+
+``` ps
+$remoteBranches = git branch -r
+
+foreach($remoteBranch in $remoteBranches) {
+    $remoteBranchFormatted = $remoteBranch.Trim()
+    $localBranchFormatted = $remoteBranchFormatted.Substring($remoteBranchFormatted.IndexOf('/') + 1)
+
+    Write-Host('Getting remote branch {0} as local branch {1}' -f $remoteBranchFormatted, $localBranchFormatted)
+    git checkout -b $localBranchFormatted $remoteBranchFormatted
+}
+```
