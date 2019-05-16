@@ -10,7 +10,7 @@
 3. Set remote URL to new repo = `git remote set-url origin <url new repo>`
 4. Push everything in the local repo to the remote = `git push origin --mirror`
 
-This code does a checkout of all remote branches:
+This powershell code does a checkout of all remote branches:
 
 ``` ps
 $remoteBranches = git branch -r
