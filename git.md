@@ -2,6 +2,12 @@
 |command|note
 |:-|:-
 |`git clean -xdf --dry-run`|removes untracked files and folders (e.g. \bin and \obj), more info on [git-clean](https://git-scm.com/docs/git-clean)
+|`git reset origin/{branch}`|Reset to remote branch
+|`git branch --contains {commit id}`|Search for commit in branches
+|`git log {branch}..{branch} --oneline --no-merges` |Difference in commits between branches
+|`git log {branch}..{branch} --pretty=format:"%h%x09%an%x09%ad%x09%s" --no-merges`|Difference in commits between branches, including date + author
+|`git log | grep -B 4 -A 4 "{text to search for}"`|Show multiple lines with 'grep'
+
 
 # How to
 ## Clone a GIT repo to a new repo in another project
