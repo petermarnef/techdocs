@@ -78,3 +78,9 @@ Run a container in the background
 ``` bash
 docker run -d --rm <image>
 ```
+
+Remove local build cache
+
+``` bash
+docker builder prune
+```
