@@ -2,6 +2,12 @@
 
 ## Troubleshooting performance
 
+### Check DB size
+
+``` sql
+sp_spaceused 'Schema.Table'
+```
+
 ### Query to check index size in KB
 
 ``` sql
