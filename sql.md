@@ -2,10 +2,14 @@
 
 ## Troubleshooting performance
 
+### Get Index info for table
+
+`sp_helpindex 'schema.table'`
+
 ### Check DB size
 
 ``` sql
-sp_spaceused 'Schema.Table'
+sp_spaceused 'schema.table'
 ```
 
 ### Query to check index size in KB
