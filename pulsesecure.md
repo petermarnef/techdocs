@@ -1,4 +1,4 @@
-# Pulse Secure PVN
+# Pulse Secure VPN
 
 ## Get it to work on Win 11 despite of the 'keeps reconnecting issue'
 
