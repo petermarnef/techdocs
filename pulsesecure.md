@@ -8,3 +8,5 @@
 - When the VPN is trying to connect an adapter named Pulse Secure shows up
 - Edit the properties of this adapter and enable the `Juniper Network Service` ([original article](https://docs.pulsesecure.net/WebHelp/PCS/9.1R1/AG/Content/ps-pcs-gettingstartedguide-9.1R1/Download_Software.htm))
 - VPN connection should stabilise immediately
+
+Downside is that you need to enable the `Juniper Network Service` on every connection
