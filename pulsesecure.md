@@ -9,4 +9,4 @@
 - Edit the properties of this adapter and enable the `Juniper Network Service` ([original article](https://docs.pulsesecure.net/WebHelp/PCS/9.1R1/AG/Content/ps-pcs-gettingstartedguide-9.1R1/Download_Software.htm))
 - VPN connection should stabilise immediately
 
-Downside is that you need to enable the `Juniper Network Service` on every connection
+Downside is that you need to enable the `Juniper Network Service` on every connection. And if it's already enabled, disable and enable again (I had that after a reboot).
