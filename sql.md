@@ -6,7 +6,7 @@
 
 `sp_helpindex 'schema.table'`
 
-### Check DB size
+### Check table size
 
 ``` sql
 sp_spaceused 'schema.table'
